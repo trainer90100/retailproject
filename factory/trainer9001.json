@@ -1,0 +1,9 @@
+{
+	"name": "trainer9001",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3bc7bf0d-bfeb-48a8-802f-2ebcb0aea6d5",
+		"tenantId": "c9d4d52d-294e-4154-9047-0aa40bfe1c68"
+	}
+}
