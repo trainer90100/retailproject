@@ -1,0 +1,27 @@
+{
+	"name": "example_pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "diplay message",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "message",
+					"value": "Happy Womens Day"
+				}
+			}
+		],
+		"variables": {
+			"message": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
