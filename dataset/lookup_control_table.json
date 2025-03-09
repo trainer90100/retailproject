@@ -1,0 +1,25 @@
+{
+	"name": "lookup_control_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "filename",
+				"type": "varchar"
+			},
+			{
+				"name": "tablename",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "control_table"
+		}
+	}
+}
