@@ -5,6 +5,10 @@
 			"vaibhav": {
 				"type": "string",
 				"value": "xyz"
+			},
+			"URL": {
+				"type": "string",
+				"value": "xyz.com"
 			}
 		}
 	},
