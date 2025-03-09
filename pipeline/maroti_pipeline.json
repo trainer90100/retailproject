@@ -1,0 +1,27 @@
+{
+	"name": "maroti_pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Display Message",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "Message",
+					"value": "Today is S"
+				}
+			}
+		],
+		"variables": {
+			"Message": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
