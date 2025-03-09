@@ -2,10 +2,6 @@
 	"name": "trainer9001",
 	"properties": {
 		"globalParameters": {
-			"vaibhav": {
-				"type": "string",
-				"value": "xyz"
-			},
 			"URL": {
 				"type": "string",
 				"value": "xyz.com"
