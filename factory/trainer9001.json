@@ -1,5 +1,13 @@
 {
 	"name": "trainer9001",
+	"properties": {
+		"globalParameters": {
+			"vaibhav": {
+				"type": "string",
+				"value": "xyz"
+			}
+		}
+	},
 	"location": "eastus2",
 	"identity": {
 		"type": "SystemAssigned",
